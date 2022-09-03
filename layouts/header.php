@@ -9,6 +9,18 @@
 </head>
 
 <body>
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 3;
+        }
+        .auth-log a, .auth-reg a{
+            color: #ccc;
+        }
+    </style>
     <div class="navbar navbar-dark navbar-expand-lg text-bg-dark">
         <div class="container">
             <a class="navbar-brand h1  fs-4" href="#">Tray<span class="text-warning">vee></span></a>
@@ -17,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
@@ -25,12 +37,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
-                    </li>
+                    </li> -->
                     <div class="auth-log ">
-                        <a class="nav-link" href="index.php?page=login">Sign In</a>
+                        <a class="nav-link " href="index.php?page=login">Sign In</a>
                     </div>
                     <div class="auth-reg ">
-                        <a class="nav-link" href="index.php?page=register">Sign Up</a>
+                        <a class="nav-link " href="index.php?page=register">Sign Up</a>
                     </div>
 
                 </ul>
