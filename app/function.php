@@ -1,6 +1,6 @@
 <?php 
 
-function url_base(){
+function base_url(){
     return "http://localhost/iyasz/web/trayvee-destinasi/";
 }
 
