@@ -14,9 +14,12 @@
 
 <body>
     <style>
+        .header h3{
+            font-weight: lighter;
+        }
         .parent {
             position: relative;
-            top: 100px;
+            top: 150px;
         }
     </style>
     <div class="container parent">
@@ -25,7 +28,7 @@
                 <div class="card shadow-lg">
                     <div class="card-body">
                         <form action="" method="post">
-                            <div class="header">
+                            <div class="header text-center mb-4">
                                 <h3>Sign In To Trayvee</h3>
                             </div>
                             <label for="username">Username</label>
@@ -33,6 +36,10 @@
 
                             <label for="pw">Password</label>
                             <input type="password" name="password" id="pw" class="form-control">
+
+                            <div class="footer">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>

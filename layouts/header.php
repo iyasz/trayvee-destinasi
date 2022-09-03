@@ -17,8 +17,18 @@
             left: 0;
             z-index: 3;
         }
-        .auth-log a, .auth-reg a{
-            color: #ccc;
+        .auth {
+            gap: 4px;
+        }
+        .auth a{
+            color: #f1f1f1;
+        }
+        .signup {
+            background: #D07000;
+            border-radius: 9px;
+            width: max-content;
+            padding-left: 9px;
+            padding-right: 9px;
         }
     </style>
     <div class="navbar navbar-dark navbar-expand-lg text-bg-dark">
@@ -28,7 +38,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto auth">
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -38,12 +48,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li> -->
-                    <div class="auth-log ">
-                        <a class="nav-link " href="index.php?page=login">Sign In</a>
-                    </div>
-                    <div class="auth-reg ">
-                        <a class="nav-link " href="index.php?page=register">Sign Up</a>
-                    </div>
+                        <a class="nav-link ps-2" href="index.php?page=login">Sign In</a>
+                        <a class="nav-link signup" href="index.php?page=register">Sign Up</a>
 
                 </ul>
             </div>
